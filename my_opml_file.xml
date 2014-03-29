@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<opml version="2.0">
+	<head>
+		<title>An OPML file</title>
+		<dateCreated>Sat, 29 Mar 2014 15:42:42</dateCreated>
+	</head>
+	<body>
+<outline text="Actualités">
+	<outline text="Rue89" type="rss" xmlUrl="http://rue89.feedsportal.com/c/33822/f/608948/index.rss" htmlUrl="http://www.rue89.com/" />
+</outline>
+<outline text="Blogs">
+	<outline text="Framablog" type="rss" xmlUrl="http://www.framablog.org/index.php/feed/atom" htmlUrl="http://www.framablog.org/index.php/" />
+	<outline text="Geexxx" type="rss" xmlUrl="http://geexxx.fr/feed/" htmlUrl="http://geexxx.fr/" />
+	<outline text="Marien Fressinaud" type="rss" xmlUrl="http://marienfressinaud.fr/?a=rss" htmlUrl="http://marienfressinaud.fr/" />
+	<outline text="Sebsauvage" type="rss" xmlUrl="http://sebsauvage.net/rss/updates.xml" htmlUrl="http://sebsauvage.net/rhaa/" />
+	<outline text="Sebsauvage (Shaarli)" type="rss" xmlUrl="http://sebsauvage.net/links/index.php?do=rss&amp;amp;permalinks" htmlUrl="http://sebsauvage.net/links/" />
+	<outline text="Standblog" type="rss" xmlUrl="http://standblog.org/blog/feed/atom" htmlUrl="http://standblog.org/blog/" />
+</outline>
+	</body>
+</opml>
