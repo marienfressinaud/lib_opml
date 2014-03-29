@@ -169,14 +169,14 @@ function libopml_render_outline($parent_elt, $outline) {
 			throw new LibOPML_Exception(
 				'Type of outline elements cannot be array: ' . $key
 			);
-		}
+		} else {
+			// Detect text attribute is present, that's good :)
+			if ($key === 'text') {
+				$text_is_present = true;
+			}
 
-		// Detect text attribute is present, that's good :)
-		if ($key === 'text') {
-			$text_is_present = true;
+			$outline_elt->addAttribute($key, $value);
 		}
-
-		$outline_elt->addAttribute($key, $value);
 	}
 
 	if (!$text_is_present) {
