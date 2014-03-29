@@ -27,7 +27,7 @@
  * the specifications), a LibOPML_Exception is raised.
  *
  * Author: Marien Fressinaud <dev@marienfressinaud.fr>
- * Url: 
+ * Url: https://github.com/marienfressinaud/lib_opml
  * Version: 0.1
  * Date: 2014-03-29
  * License: public domain
