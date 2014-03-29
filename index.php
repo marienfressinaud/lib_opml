@@ -18,7 +18,7 @@ try {
 	print_r($opml_array1);
 	echo '</pre>';
 } catch (LibOPML_Exception $e) {
-	echo $e;
+	echo $e->getMessage();
 }
 
 
@@ -43,7 +43,6 @@ try {
 	echo '<pre>';
 } catch (LibOPML_Exception $e) {
 	echo $e->getMessage();
-	print_r($e);
 }
 
 
