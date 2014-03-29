@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title>libopml.php samples</title>
+		<title>lib_opml.php samples</title>
 	</head>
 	<body>
 <?php
