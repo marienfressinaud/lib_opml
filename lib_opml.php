@@ -68,7 +68,7 @@ function libopml_parse_outline($outline_xml) {
 	foreach ($outline_xml->children() as $key => $value) {
 		// An outline may contain any number of outline children
 		if ($key === 'outline') {
-			$outline['outlines'][] = libopml_parse_outline($value);
+			$outline['@outlines'][] = libopml_parse_outline($value);
 		} else {
 			throw new LibOPML_Exception(
 				'Body can contain only outline elements'
@@ -161,9 +161,7 @@ function libopml_render_outline($parent_elt, $outline) {
 	foreach ($outline as $key => $value) {
 		// Only outlines can be an array and so we consider children are also
 		// outline elements.
-		// Note that $outline['outlines'] is not necessary an array and so we
-		// should consider it as an attribute.
-		if ($key === 'outlines' && is_array($value)) {
+		if ($key === '@outlines' && is_array($value)) {
 			foreach ($value as $outline_child) {
 				libopml_render_outline($outline_elt, $outline_child);
 			}
