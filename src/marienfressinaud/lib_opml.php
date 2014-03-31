@@ -8,7 +8,7 @@
  * Difference is "text" attribute is optional in version 1.0. It is highly
  * recommended to use this attribute.
  *
- * lib_opml requires SimpleXML (http://php.net/manual/en/book.simplexml.php)
+ * lib_opml requires SimpleXML (php.net/simplexml) and DOMDocument (php.net/domdocument)
  *
  * @author   Marien Fressinaud <dev@marienfressinaud.fr>
  * @link     https://github.com/marienfressinaud/lib_opml

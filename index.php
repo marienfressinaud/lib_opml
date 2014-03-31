@@ -7,7 +7,7 @@
 	<body>
 <?php
 
-include('lib_opml.php');
+include('src/marienfressinaud/lib_opml.php');
 
 
 echo '<h1>Test libopml_parse_file</h1>';
