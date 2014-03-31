@@ -50,7 +50,7 @@ echo '<h1>Test libopml_render</h1>';
 try {
 	$opml_string = libopml_render($opml_array1);
 	echo '<pre>';
-	echo htmlentities($opml_string);
+	echo htmlspecialchars($opml_string, ENT_NOQUOTES, 'UTF-8');
 	echo '<pre>';
 } catch (LibOPML_Exception $e) {
 	echo $e->getMessage();

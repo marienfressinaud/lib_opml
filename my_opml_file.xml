@@ -13,7 +13,7 @@
 	<outline text="Geexxx" type="rss" xmlUrl="http://geexxx.fr/feed/" htmlUrl="http://geexxx.fr/" />
 	<outline text="Marien Fressinaud" type="rss" xmlUrl="http://marienfressinaud.fr/?a=rss" htmlUrl="http://marienfressinaud.fr/" />
 	<outline text="Sebsauvage" type="rss" xmlUrl="http://sebsauvage.net/rss/updates.xml" htmlUrl="http://sebsauvage.net/rhaa/" />
-	<outline text="Sebsauvage (Shaarli)" type="rss" xmlUrl="http://sebsauvage.net/links/index.php?do=rss&amp;amp;permalinks" htmlUrl="http://sebsauvage.net/links/" />
+	<outline text="Sebsauvage (Shaarli)" type="rss" xmlUrl="http://sebsauvage.net/links/index.php?do=rss&amp;permalinks" htmlUrl="http://sebsauvage.net/links/" />
 	<outline text="Standblog" type="rss" xmlUrl="http://standblog.org/blog/feed/atom" htmlUrl="http://standblog.org/blog/" />
 </outline>
 	</body>
