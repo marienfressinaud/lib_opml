@@ -10,8 +10,7 @@
     ],
     "require": {
         "php": ">=5.1.3",
-        "ext-simplexml": "*",
-        "ext-domdocument": "*"
+        "ext-simplexml": "*"
     },
     "support": {
         "issues": "https://github.com/marienfressinaud/lib_opml/issues"
