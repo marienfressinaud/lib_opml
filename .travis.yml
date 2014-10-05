@@ -3,3 +3,8 @@ php:
   - "5.5"
   - "5.4"
   - "5.3"
+  - "5.2"
+  - "5.1"
+before_script: wget http://downloads.atoum.org/nightly/mageekguy.atoum.phar
+script: php mageekguy.atoum.phar
+install: composer install
